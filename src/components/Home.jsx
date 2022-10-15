@@ -1,5 +1,5 @@
 import React from 'react'
-import MyImage from '../assets/roci.webp'
+import MyImage from '../assets/myImage.jpeg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='sm:w-2/3'>
                 <img src={MyImage} alt='broken link' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
