@@ -14,7 +14,7 @@ const Home = () => {
                     PLACEHOLDER FOR WHATEVER WILL GO HERE IN THE FUTURE.
                 </p>
 
-                <div>
+                <div className='flex md:block text-center justify-center items-center'>
                     <Link to='Portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Portfolio 
                         <span className='group-hover:rotate-90 duration-300'>
