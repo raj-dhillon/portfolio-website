@@ -13,7 +13,7 @@ const Socials = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/rajdeep-dhillon/',
             style: "rounded-tr-md"
         },
         {
